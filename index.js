@@ -7,8 +7,8 @@ darkModeToggle.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
   
   darkModeToggle.innerHTML = body.classList.contains('dark-mode')
-    ? '<img src="/images/Icons/soleil.png" alt="Light Mode" width="35" height="35">'
-    : '<img src="/images/Icons/pleine-lune.png" alt="Dark Mode" width="35" height="35">';
+    ? '<img src="images/Icons/soleil.png" alt="Light Mode" width="35" height="35">'
+    : '<img src="images/Icons/pleine-lune.png" alt="Dark Mode" width="35" height="35">';
 });
 
 // Dynamic Text Animation
