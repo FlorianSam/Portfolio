@@ -14,6 +14,7 @@ darkModeToggle.addEventListener('click', () => {
 // Dynamic Text Animation
 document.addEventListener('DOMContentLoaded', () => {
   const professions = [
+      'Front-end Developer React.JS',
       'Design UI / UX_',
       'Presentation Designer_',
       'Photographer_',
