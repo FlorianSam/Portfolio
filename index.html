@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florian Sam Development</title>
+  <link rel="icon" href="images/Icons/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">FS <span class="dott">.</span>Development</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="dark-mode-toggle"><img src="images/Icons/pleine-lune.png" height="35px" width="35px" alt="darkmode" srcset=""></button>
+    <button class="hamburger" id="hamburger-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </nav>
+
+  <!-- Section Home -->
+  <header id="home">
+    <div class="home-content">
+      <h1>Hello, I'm <span>Florian Sam</span></h1>
+      <p id="dynamic-text" class="profession"></p>
+      <div class="profile-photo">
+        <img src="images/1pic.jpg" alt="Florian Sam" class="ppfloat">
+      </div>
+      <div class="social-links">
+        <a target="_blank" href="https://www.linkedin.com/in/florian-sam-319519313/"><img src="images/Icons/linkedin.png" alt="LinkedIn"></a>
+        <a target="_blank" href="https://www.malt.fr/profile/florian-samoyeau"><img src="images/Icons/Malt.png" alt="Malt"></a>
+        <a target="_blank" href="https://www.instagram.com/shotby_wren/"><img src="images/Icons/instagram.png" alt="Instagram"></a>
+        <a href="mailto:floriansam.interface@gmail.com"><img src="images/Icons/Mail.png" alt="Email"></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section Works -->
+
+  <section id="works">
+    <h2><u>My Works</u></h2>
+    <div class="carousel">
+      <button class="carousel-prev">&lt;</button>
+      <div class="carousel-items">
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/Landing Page ArtPulse.png" alt="Project 1">
+            <h3>ArtPulse Sign Up Page</h3>
+            <p>Sign Up Page</p>
+          </a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/WaveMates.png" alt="Project 1">
+            <h3>WaveMates</h3>
+            <p>Sign up page mobile app</p>
+          </a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/Landing Page EcoTrail.png" alt="Project 1">
+            <h3>EcoTrail</h3>
+            <p>Landing Page for mobile app</p>
+          </a>
+        </div>
+
+        
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/MX Linux Homepage.png" alt="Project 1">
+            <h3>MX Linux Homepage Design</h3>
+            <p>Home Page MX Linux</p>
+          </a>
+        </div>
+
+        
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/Bilans.png" alt="Project 1">
+            <h3>Results of the 2024 Olympics</h3>
+            <p>Chiffre JO 2024</p>
+          </a>
+        </div>
+
+        
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/Card pro.png" alt="Project 1">
+            <h3>Card Pro Design</h3>
+            <p>Minimalist Creation Pro Card</p>
+          </a>
+        </div>
+
+        
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/Infography Presentation.png" alt="Project 1">
+            <h3>Use of connected device presentation design</h3>
+            <p>adoption and use of connected devices in figures</p>
+          </a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/De╠übut.png" alt="Project 1">
+            <h3>Open Presentation JO Paris 2024</h3>
+            <p>Slide "1" JO Paris 2024/p>
+          </a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="path-to-project1.html">
+            <img src="images/Projects/earth science.png" alt="Project 1">
+            <h3>Flyer Design "Introduction to Earth Science" event</h3>
+            <p>Flyer Design event</p>
+          </a>
+        </div>
+
+       </div>
+      <button class="carousel-next">&gt;</button>
+    </div> 
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img id="modal-img" src="" alt="Project Image">
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+    
+  </section>
+
+<!-- SECTION SKILLS -->
+
+<section id="skills" class="skills-section">
+  <h2 class="space2">My Skills</h2>
+  <div class="skills-container">
+    <div class="skill">
+      <img src="images/Icons/conception-de-linterface-utilisateur.png" alt="Design UI">
+      <p>Design UI</p>
+    </div>
+    <div class="skill">
+      <img src="images/Icons/conception-ux.png" alt="Design UX">
+      <p>Design UX</p>
+    </div>
+    <div class="skill">
+      <img src="images/Icons/detective-prive.png" alt="OSINT">
+      <p>OSINT</p>
+    </div>
+    <div class="skill">
+      <img src="images/Icons/application.png" alt="App Design">
+      <p>App Design</p>
+    </div>
+    <div class="skill">
+      <img src="images/Icons/presentation.png" alt="Presentation Design">
+      <p>Presentation Design</p>
+    </div>
+    <div class="skill">
+      <img src="images/Icons/fichier-html.png" alt="HTML">
+      <p>HTML</p>
+    </div>
+    <div class="skill">
+      <img src="images/Icons/fichier-css.png" alt="CSS">
+      <p>CSS</p>
+    </div>
+    <div class="skill">
+      <img src="images/Icons/javascript.png" alt="JavaScript">
+      <p>JavaScript</p>
+    </div>
+    <div class="skill">
+      <img src="images/Icons/python.png" alt="Python">
+      <p>Python</p>
+    </div>
+  </div>
+
+
+<!-- SECTION TOOLS -->
+
+<h2 class="space">Tools I Use</h2>
+<div class="tools-container">
+  <div class="tool">
+    <img src="images/Icons/code.png" alt="VS Code">
+    <p>VS Code</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/figma.png" alt="Figma">
+    <p>Figma</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/xd.png" alt="Adobe XD">
+    <p>Adobe XD</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/adobe-photoshop.png" alt="Adobe Photoshop">
+    <p>Adobe Photoshop</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/linux.png" alt="Linux">
+    <p>Linux</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/oracle.png" alt="VirtualBox">
+    <p>VirtualBox</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/logo-android.png" alt="Android">
+    <p>Android</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/pomme.png" alt="iOS">
+    <p>iOS</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/mac-mini.png" alt="MacOS">
+    <p>MacOS</p>
+  </div>
+  <div class="tool">
+    <img src="images/Icons/silhouette-de-logo-windows.png" alt="Windows">
+    <p>Windows</p>
+  </div>
+</div>
+</section>
+
+
+  <!-- Section About Me -->
+  <section id="about">
+    <div class="about-content">
+      <h2><u>About Me</u></h2>
+      <p><b>Passionate about technology and innovation, I currently work as a front-end web developer specializing in React.js 💻, while exploring areas that deeply fascinate me: data security, programming and OSINT 🔍🌐..</b>
+        <br>
+        <br>Today, I devote myself fully to exploring and securing digital information, transforming complex concepts into intuitive and efficient solutions. Each project is an opportunity for me to use my skills in development and cybersecurity to meet the needs of users while ensuring the protection of their data.<br> 
+        <br>
+        <b><u>My goal :</u></b> Combine technology, aesthetics and security to offer solutions adapted to the current challenges of confidentiality and data protection. 🔒
+        <br>
+        <br>
+        <b><u>What I propose:</u></b>
+        <br>
+        <br>
+        <mark>• Front-End Web Development in React.js:</mark> Design of responsive and dynamic interfaces, optimized to offer a fluid user experience. 💻
+        <br><br>
+        <mark>• OSINT Analysis:</mark> Search for public information to provide strategic analysis and strengthen data security. 🔎
+        <br>
+        <br>
+        <mark>• Data Security:</mark>Analysis and implementation of protection strategies to secure your sensitive information. 🔐
+        <br>
+        <br>
+        <mark>• IT Security Consulting:</mark> Recommendations to strengthen the security of your systems and protect personal data. 👨‍💻
+        <br>
+        <br>
+        <mark>Technical Documentation and Awareness:</mark> Creation of documents and guides to promote good practices in digital security. 📘
+        <br>
+        <br>
+        <b>Ready to discuss your next project? Contact me to find out how I can help turn your ideas into digital experiences 💻 😊</b>
+        </p>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact">
+    <h2><u>Contact Me</u></h2>
+    <div class="contact-methods">
+      <a href="mailto:floriansam.interface@gmail.com">Email Me</a>
+      <a target="_blank" href="https://www.linkedin.com/in/florian-sam-319519313/">LinkedIn</a>
+      <!-- Autres liens de contact -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Florian Sam. All Rights Reserved.</p>
+    <button id="back-to-top">⇡</button>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
